@@ -5,6 +5,8 @@ import store from './store'
 
 // reset.css
 import './style/index.less'
+// 根据不同设备设置基础的font-size值
+import 'amfe-flexible'
 
 Vue.config.productionTip = false
 
