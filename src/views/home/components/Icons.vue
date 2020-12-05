@@ -1,5 +1,5 @@
 <template>
-  <div class="home-icon-container">
+  <div class="home-icon-container clearfix">
     <div class="icons-item" v-for="(icon, index) in icons" :key="index">
       <img :src="icon.url" alt="">
       <p>{{ icon.title }}</p>
